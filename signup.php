@@ -95,8 +95,10 @@ if ($GLOBALS['CONFIG']['allow_signup'] == 'True') {
         }
     }
     ?>
-        <html>
-        <head><title>Sign Up</title></head>
+      <!DOCTYPE html lang="ja">
+      <head>
+      <meta charset="utf-8">
+<title>Sign Up</title></head>
         <body>
 <?php
     if (is_readable("signup_header.html")) {
@@ -117,17 +119,17 @@ if ($GLOBALS['CONFIG']['allow_signup'] == 'True') {
         <tr><td><b><?php echo msg('username');
     ?></b></td><td><input name="username" type="text"></td></tr>
         <tr>
-        <td><b>Phone Number</b></td>
+        <td><b>電話番号（任意）</b></td>
         <td>
         <input name="phonenumber" type="text">
         </td>
         </tr>
         <tr>
-        <td><b>Example</b></td>
+        <td><b>例</b></td>
         <td><b>999 9999999</b></td>
         </tr>
         <tr>
-        <td><b>E-mail Address</b></td>
+        <td><b>E-mailアドレス</b></td>
         <td>
         <input name="Email" type="text">
         </td>
@@ -142,7 +144,7 @@ if ($GLOBALS['CONFIG']['allow_signup'] == 'True') {
     ?>
 
         <tr>
-        <td><b>Department</b></td>
+        <td><b>部署名選択</b></td>
         <td>
         <select name="department">
         <?php	
