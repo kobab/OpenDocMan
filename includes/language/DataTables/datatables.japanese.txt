@@ -1,7 +1,7 @@
 
 {
     "sProcessing":   "処理中です...",
-    "sLengthMenu":   "_MENU_ 内容を表示",
+    "sLengthMenu":   "_MENU_ 件づつ表示",
     "sZeroRecords":  "一致する記録がありません",
     "sInfo":         "計 _TOTAL_ 中、 _START_ から _END_ までの内容を表示しています",
     "sInfoEmpty":    "計 0 中、0 から 0までの内容を表示しています",
